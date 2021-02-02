@@ -17,13 +17,26 @@
             background: rgba(67, 146, 199, 0.384);
             display: flex;
             justify-content: space-between;
+            margin-top:-4px;
+            top: 0;
+            position: sticky;
+            
+        }
+        .header:hover{
+            top: 0;
+            position: sticky;
+            background: #000;
+            
+
         }
         .logo img{
             margin: 0;
             position: absolute;
-            top: -5%;
+            top: -30%;
             left: 10%;
-            cursor: pointer;
+            cursor: not-allowed;
+            margin: 0;
+            
         }
         .menu ul{
             margin: 0;
@@ -42,6 +55,7 @@
             margin-left: 20px;
             font-size: 20px;
             position: relative;
+            transition: 1.2s;
         }
         .menu ul li :last-child{
             margin-right: 60px;
@@ -71,10 +85,40 @@
             padding: 15px;
             color: wheat;
         }
+        .box1{
+            height: 200px;
+            background: tan;
+            width: 30%;
+            /* margin:-2px; */
+            border: 2px solid blanchedalmond;
+            margin-left: 10px;
+            padding: 15px;
+            text-align: justify;
+            overflow: auto;
+            
+        }
+        .box1:hover{
+            background: black;
+            color: white;
+            
+        }
+        .box{
+            display: flex;
+        }
+        #marquee{
+            background: #2191fc;
+            height: 60px;
+            font-size: 40px;
+            text-align: justify;
+            
+        }
     </style>
 </head>
 <body>
     <div class="warraper">
+        <marquee id="marquee" behavior="scroll" direction="right">
+            I am a web designer.My Name is Naiem Islam
+        </marquee>
         <div class="header">
             <div class="logo">
                 <img src="logo.svg" alt="Naiem compay logo">
@@ -91,9 +135,15 @@
         </div>
         <div class="bod">
             <div class="box">
-                <div class="box1"></div>
-                <div class="box1"></div>
-                <div class="box1"></div>
+                <div class="box1">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus quaerat quos voluptas, voluptatem iste rerum, quae maxime eaque enim corporis est asperiores optio dolor perferendis quis eligendi veritatis officiis repellat in natus recusandae! Hic, eum? Accusamus excepturi rem, molestiae velit iusto officiis nesciunt ab, harum labore fugiat repudiandae possimus quia officia repellendus deleniti pariatur qui ex adipisci aut delectus, ipsa hic esse nam maxime. Similique quos at soluta blanditiis. Magnam itaque commodi nobis rerum reiciendis aspernatur, autem quo a aliquam eum nulla inventore ad ducimus aut quaerat quos maiores placeat sit. Veniam quis quos consectetur in mollitia dicta repudiandae corrupti! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit dignissimos sunt beatae repudiandae, quod reprehenderit est et in eaque iure!
+                </div>
+                <div class="box1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sequi culpa ducimus nostrum cupiditate nisi expedita laudantium deserunt veritatis magni officia officiis nulla cumque odio asperiores rerum inventore, at aspernatur quas. Voluptate incidunt, error officia nesciunt consectetur molestiae quas nostrum illo obcaecati natus earum dolorum, expedita ea quo eos necessitatibus. Nulla, ratione! Ut ipsam illum fugiat asperiores dignissimos natus officiis accusantium sunt, quam architecto autem ea a excepturi sint neque aspernatur quo odio exercitationem nemo! Minus, aliquam animi optio nemo dicta neque obcaecati culpa laborum illum, itaque odit aut qui quos officiis soluta! Nobis error quod ab odio dolores aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati laboriosam itaque explicabo optio illo praesentium nam facilis ducimus, non debitis.
+                </div>
+                <div class="box1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ducimus, aliquid deleniti odit adipisci ex ab nisi nemo rem voluptas eveniet. Repudiandae provident deleniti corrupti dolorem ipsa, sit in quam tempora laboriosam neque, recusandae cupiditate illum possimus laudantium nihil excepturi quis error? Error fuga quibusdam, totam sunt aspernatur maxime at exercitationem dolorem sint tenetur ad veniam, alias ex quis fugiat, beatae expedita qui provident consequuntur? Dignissimos ullam cum neque repellat soluta sed dolores rerum quidem ipsam tempore dolore, ex quisquam, doloremque officiis saepe facere possimus laborum in iure, dicta molestiae! Eius repellendus eveniet maxime asperiores quas aliquid id saepe exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsa ullam ducimus quidem inventore consequuntur voluptate, corporis animi eveniet quasi.
+                </div>
             </div>
         </div>
     </div>
