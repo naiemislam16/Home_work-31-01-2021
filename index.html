@@ -5,120 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>position, overflow, </title>
     <link rel="shortcut icon" href="logo.png" type="image/x-icon" width="144px" height="144px">
-    <style>
-        body{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        .header{
-            width: 100%;
-            height: 100px;
-            background: rgba(67, 146, 199, 0.384);
-            display: flex;
-            justify-content: space-between;
-            margin-top:-4px;
-            top: 0;
-            position: sticky;
-            
-        }
-        .header:hover{
-            top: 0;
-            position: sticky;
-            background: #000;
-            
-
-        }
-        .logo img{
-            margin: 0;
-            position: absolute;
-            top: -30%;
-            left: 10%;
-            cursor: not-allowed;
-            margin: 0;
-            
-        }
-        .menu ul{
-            margin: 0;
-            display: flex;
-            align-items: center;
-            margin-top: 50px;
-            
-        }
-        .menu ul li{
-            
-            list-style: none;
-            
-        }
-        .menu ul li a{
-            text-decoration: none;
-            margin-left: 20px;
-            font-size: 20px;
-            position: relative;
-            transition: 1.2s;
-        }
-        .menu ul li :last-child{
-            margin-right: 60px;
-        }
-        .menu ul li:hover:nth-child(1) a{
-            background: red;
-            padding: 15px;
-            color: wheat;
-        }
-        .menu ul li:hover:nth-child(2) a{
-            background: rgb(21, 235, 67);
-            padding: 15px;
-            color: rgb(246, 246, 246);
-        }
-        .menu ul li:hover:nth-child(3) a{
-            background: rgb(41, 70, 235);
-            padding: 15px;
-            color: wheat
-        }
-        .menu ul li:hover:nth-child(4) a{
-            background: rgb(243, 70, 93);
-            padding: 15px;
-            color: wheat;
-        }
-        .menu ul li:hover:nth-child(5) a{
-            background: rgb(238, 34, 187);
-            padding: 15px;
-            color: wheat;
-        }
-        .box1{
-            height: 200px;
-            background: tan;
-            width: 30%;
-            /* margin:-2px; */
-            border: 2px solid blanchedalmond;
-            margin-left: 10px;
-            padding: 15px;
-            text-align: justify;
-            overflow: auto;
-            
-        }
-        .box1:hover{
-            background: black;
-            color: white;
-            
-        }
-        .box{
-            display: flex;
-        }
-        #marquee{
-            background: #2191fc;
-            height: 60px;
-            font-size: 40px;
-            text-align: justify;
-            
-        }
-        @media only screen and (max-width: 600px) {
-  .box{
-    display: block;
-    width: 100%;
-  }
-}
-    </style>
+    <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
     <div class="warraper">
@@ -139,6 +27,9 @@
                 </ul>
             </div>
         </div>
+        <div class="border">
+            <h1>Border and overflow work</h1>
+        </div>
         <div class="bod">
             <div class="box">
                 <div class="box1">
@@ -151,6 +42,124 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ducimus, aliquid deleniti odit adipisci ex ab nisi nemo rem voluptas eveniet. Repudiandae provident deleniti corrupti dolorem ipsa, sit in quam tempora laboriosam neque, recusandae cupiditate illum possimus laudantium nihil excepturi quis error? Error fuga quibusdam, totam sunt aspernatur maxime at exercitationem dolorem sint tenetur ad veniam, alias ex quis fugiat, beatae expedita qui provident consequuntur? Dignissimos ullam cum neque repellat soluta sed dolores rerum quidem ipsam tempore dolore, ex quisquam, doloremque officiis saepe facere possimus laborum in iure, dicta molestiae! Eius repellendus eveniet maxime asperiores quas aliquid id saepe exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsa ullam ducimus quidem inventore consequuntur voluptate, corporis animi eveniet quasi.
                 </div>
             </div>
+        </div>
+        <div class="content">
+         <h1>
+        
+                Transform scale work and position work
+               
+         </h1>
+           </div>
+        <div class="transalate">
+           
+            <div class="outer box5">
+                <div class="outer inline">
+
+                </div>
+            </div>
+            <div class="outer box5">
+                <div class="outer inline">
+
+                </div>
+            </div>
+            <div class="outer box5">
+                <div class="outer inline">
+
+                </div>
+            </div>
+            <div class="outer box5">
+                <div class="outer inline">
+
+                </div>
+            </div>
+            <div class="outer box5">
+                <div class="outer inline">
+
+                </div>
+            </div>
+        </div>
+        <div class="a">
+            <h1>
+                CSS Pseudo-classes
+            </h1>
+        </div>
+        <div class="presudo_class">
+            <div class="first_child">
+                <ul>
+                    <li>Naiem</li>
+                    <li>Sohel</li>
+                    <li>Rimon</li>
+                    <li>Azizul</li>
+                    <li>Emon</li>
+                    <li>Mehedi</li>
+                    <li>Probad</li>
+                    <li>sakil</li>
+                    <li>shakib</li>
+                    <li>sabbir</li>
+                </ul>
+            </div>
+            <div class="last_child">
+                <ul>
+                    <li>Naiem</li>
+                    <li>Sohel</li>
+                    <li>Rimon</li>
+                    <li>Azizul</li>
+                    <li>Emon</li>
+                    <li>Mehedi</li>
+                    <li>Probad</li>
+                    <li>sakil</li>
+                    <li>shakib</li>
+                    <li>sabbir</li>
+                </ul>
+            </div>
+            <div class="pair">
+                <ul>
+                    <li>Naiem</li>
+                    <li>Sohel</li>
+                    <li>Rimon</li>
+                    <li>Azizul</li>
+                    <li>Emon</li>
+                    <li>Mehedi</li>
+                    <li>Probad</li>
+                    <li>sakil</li>
+                    <li>shakib</li>
+                    <li>sabbir</li>
+                </ul>
+            </div>
+            <div class="unpaired">
+                <ul>
+                    <li>Naiem</li>
+                    <li>Sohel</li>
+                    <li>Rimon</li>
+                    <li>Azizul</li>
+                    <li>Emon</li>
+                    <li>Mehedi</li>
+                    <li>Probad</li>
+                    <li>sakil</li>
+                    <li>shakib</li>
+                    <li>sabbir</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="b">
+            CSS Pseudo-element
+        </div>
+        <div class="after">
+            Naiem islam
+        </div>
+        <div class="before">
+        Naiem islam
+        </div>
+        <div class="form">
+            
+            <form action="index.html" id="form1">
+                <label for="email">Email or username</label><br>
+                <input type="text" id="email" placeholder="Email or username Here"><br><br>
+                <label for="password">Password</label><br>
+                <input type="password" name="#" id="password" placeholder="Input your password"><br><br>
+                <button>Sing In</button><br><br>
+            </form>
         </div>
     </div>
 </body>

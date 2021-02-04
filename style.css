@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background: #EA738DFF;
+    display: flex;
+    justify-content: space-between;
+    margin-top:-4px;
+    top: 0;
+    position: sticky;
+    
+}
+/* .header:hover{
+    top: 0;
+    position: sticky;
+    background: #000;
+    
+
+} */
+.logo img{
+    margin: 0;
+    position: absolute;
+    top: -30%;
+    left: 10%;
+    cursor: not-allowed;
+    margin: 0;
+    
+}
+.menu ul{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.menu ul li{
+    
+    list-style: none;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    position: relative;
+    transition: 1.2s;
+}
+.menu ul li :last-child{
+    margin-right: 60px;
+}
+.menu ul li:hover:nth-child(1) a{
+    background: red;
+    padding: 15px;
+    color: wheat;
+    border-radius: 10px;
+}
+.menu ul li:hover:nth-child(2) a{
+    background: rgb(21, 235, 67);
+    padding: 15px;
+    color: rgb(246, 246, 246);
+    border-radius: 10px;
+}
+.menu ul li:hover:nth-child(3) a{
+    background: rgb(41, 70, 235);
+    padding: 15px;
+    color: wheat;
+    border-radius: 10px;
+}
+.menu ul li:hover:nth-child(4) a{
+    background: rgb(243, 70, 93);
+    padding: 15px;
+    color: wheat;
+    border-radius: 10px;
+}
+.menu ul li:hover:nth-child(5) a{
+    background: rgb(238, 34, 187);
+    padding: 15px;
+    color: wheat;
+    border-radius: 10px;
+}
+.box1{
+    height: 200px;
+    /* background: #CDB599FF; */
+    width: 30%;
+    margin:70px;
+    border: 2px solid blanchedalmond;
+    margin-left: 10px;
+    padding: 15px;
+    text-align: justify;
+    overflow: auto;
+    
+    
+}
+.box1:hover{
+    background: #CDB599FF;
+    color:#42EADDFF;
+    display: block;
+
+    
+}
+.box{
+    display: flex;
+}
+#marquee{
+    background: #2191fc;
+    height: 60px;
+    font-size: 40px;
+    text-align: justify;
+    color: #ADEFD1FF;
+    
+}
+/* @media only screen and (max-width: 600px) {
+.box{
+display: block;
+width: 100%;
+} */
+.bod{
+background: #42EADDFF;
+height: 400px;
+width: 100%;
+}
+.transalate{
+display: flex;
+background: #CBCE91FF url('https://www.w3schools.com/css/img_tree.gif') no-repeat fixed center;
+/* justify-content: center; */
+height: 400px;
+align-items: center;
+justify-self: center;
+
+}
+.outer{
+height: 200px;
+width: 200px;
+/* border-radius: 50%; */
+background: #606060FF;
+margin: 10px;
+margin-left: 55px;
+
+/* position: relative; */
+
+}
+.outer:nth-child(1){
+/* margin-right: 10px; */
+}
+.box5{
+background: #606060FF;
+/* transform: skew(-45deg); */
+border-radius: 50%;
+}
+.inline{
+border-radius: 50%;
+background: #FEE715FF;
+/* transform: scale(0.5); */
+/* align-items: center; */
+/* transform: skew(-45deg); */
+}
+.inline:hover + .box5{
+    background: #2BAE66FF;
+}
+.presudo_class{
+display: flex;
+margin: 10px;
+justify-content: space-between;
+background: #B1B3B3FF;
+}
+ul li{
+font-size: 30px;
+}
+ul{
+margin-left: 10px;
+margin-right: 10px;
+}
+.first_child ul li:first-child{
+color:rgb(39, 240, 13);
+/* font-size: 60px; */
+}
+.content h1{
+    text-align: justify;
+    color: chocolate;
+    text-align: center;
+}
+.a{
+    color: rgb(10, 13, 219);
+    text-align: center;
+    font-size: 40px;
+}
+.last_child ul li:last-child{
+    color: rgb(39, 240, 13);
+
+}
+.pair ul li:nth-child(2n){
+    color:rgb(17, 21, 236);
+}
+.unpaired ul li:nth-child(2n+1){
+    color: aqua;
+}
+.b{
+    text-align: justify;
+    font-size: 40px;
+}
+.after{
+    font-size: 45px;
+    color: brown;
+    text-shadow:2px 2px 10px  cadetblue;
+    text-align: center;
+}
+.before{
+    font-size: 45px;
+    color: brown;
+    text-shadow:2px 2px 10px  cadetblue;
+    text-align: center;
+
+}
+.after::after{
+    content: url(logo.svg);
+}
+.before::before{
+    content: url(logo.svg);
+}
+.form{
+    height: 300px;
+    width: 400px;
+    background: red;
+   padding: 20px;
+   margin: 0px auto;
+   color: white;
+}
+#form1{
+    margin: 10px auto;
+    padding: 15px;
+}
+.form input{
+    border-bottom: 2px solid blanchedalmond;
+    
+}
+.form input, label{
+    padding: 15px;
+    outline: none;
+    background: transparent;
+    margin: 10px 80px;
+    color: white;
+    
+}
+.form input:focus{
+    background: rgba(84, 141, 151, 0.239);
+    color: white;
+    border-radius: 30px;
+    outline-color: rgb(233, 8, 203);
+    width: 68%;
+}
+.form button{
+    padding: 15px 80px;
+    margin-left: 80px;
+    background: tan;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
